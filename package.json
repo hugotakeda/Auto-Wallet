@@ -1,0 +1,23 @@
+{
+  "name": "my-wallet-bot",
+  "version": "1.0.0",
+  "description": "My Wallet — assistente financeiro pessoal via Discord",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["discord", "finance", "bot"],
+  "author": "",
+  "license": "PRIVATE",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.15.0"
+  }
+}
